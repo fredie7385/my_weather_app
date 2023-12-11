@@ -2,7 +2,12 @@ import './CurrentWeather.css'
 
 function CurrentWeather() {
   return (
-    <div>CurrentWeather</div>
+    <div className='weather'>
+        <div className="top">
+            <p className="city">Nairobi</p>
+            <p className="weather-description">Sunny</p>
+        </div>
+    </div>
   )
 }
 
