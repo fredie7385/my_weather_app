@@ -1,5 +1,5 @@
 import React from "react";
-import { Search } from "./components/components.jsx";
+import { Search,CurrentWeather } from "./components/components.jsx";
 import "./App.css";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <>
       <div className="container">
         <Search onSearchChange={handleOnSearchChange} />
+        <CurrentWeather/>
       </div>
     </>
   );
