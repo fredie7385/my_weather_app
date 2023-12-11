@@ -7,6 +7,7 @@ function CurrentWeather() {
             <p className="city">Nairobi</p>
             <p className="weather-description">Sunny</p>
         </div>
+        <img src="../../." alt="weather"/>
     </div>
   )
 }
