@@ -14,7 +14,7 @@ function Search({ onSearchChange }) {
         return {
           options: response.data.map((city) => {
             return {
-              value: `${city.latitude}, ${city.longitude}`,
+              value: `${city.latitude} ${city.longitude}`,
               label: `${city.name}, ${city.countryCode}`,
             };
           }),
@@ -29,7 +29,7 @@ function Search({ onSearchChange }) {
 
   return (
     <AsyncPaginate
-      placeholder="Search for City..."
+      placeholder="Search For City"
       debounceTimeout={500}
       value={Search}
       onChange={handleOnChange}
